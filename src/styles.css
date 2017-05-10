@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/primeng/resources/primeng.css";
+@import "../node_modules/primeng/resources/themes/omega/theme.css";
+
+#content{
+  background-color: #5fc3a2;
+}
+
+.main_content{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+hr{
+  height: 0px;
+  visibility: hidden;
+}
